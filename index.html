@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#180b2d">
+  <meta name="description" content="Uma carta especial de amor entre o Batman e a Hello Kitty.">
+  <title>Uma Carta Para My May 🦇🎀</title>
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,800;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Fundo Dinâmico com Bat-sinais e Laços da Hello Kitty -->
+  <div class="hearts-background" aria-hidden="true"></div>
+
+  <!-- Player de Música Flutuante no Canto Superior -->
+  <div class="floating-music-player" id="musicPlayerContainer">
+    <div class="music-info">
+      <span class="music-icon-spin">🎶</span>
+      <span class="music-title">Daniel Caesar - Best Part (Audio) ft. H.E.R.</span>
+    </div>
+    <audio id="loveSong" loop preload="auto">
+      <source src="img/musica.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+    <button id="playMusicBtn" class="music-control-btn" aria-label="Tocar ou pausar música">
+      ▶️ Tocar
+    </button>
+  </div>
+
+  <main>
+    <!-- TELA INICIAL (HERO & ENVELOPE) -->
+    <section class="hero" id="inicio">
+      <div class="hero-header-icons">
+        <span class="hero-character bat-icon" title="Batman">🦇</span>
+        <span class="hero-character bow-icon" title="Hello Kitty">🎀</span>
+      </div>
+
+      <span class="eyebrow">Do seu BatBoy para a minha Kiity Girl...</span>
+      <h1>Nossa História de Amor 💙💜</h1>
+      <p class="hero-text">
+        Preparei uma surpresa única para a minha May... espero que goste!
+      </p>
+
+      <button class="envelope-button" id="openLetter" aria-label="Abrir a carta de amor">
+        <div class="envelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="envelope-paper">💌</div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-seal">🦇🎀</div>
+        </div>
+        <span class="open-hint">Toque no envelope para abrir 💌</span>
+      </button>
+
+      <p class="small-note">Feito especialmente para o meu amorzinho... ✨</p>
+    </section>
+
+    <!-- CONTEÚDO REVELADO -->
+    <div id="surprise" class="surprise hidden">
+
+      <!-- CARTA DE AMOR COM ESPAÇO EXPANDIDO PARA TEXTO -->
+      <section class="letter-section section-card" id="carta">
+        <div class="card-corner-badge badge-kitty">🎀 Kitty Girl</div>
+        <div class="card-corner-badge badge-batman">🦇 Batboy</div>
+
+
+        <span class="section-label">DECLARAÇÃO DE AMOR</span>
+        <h2>Para Minha Princesa Hello Kitty 🎀✨</h2>
+
+        <div class="letter-content">
+          <p>Meu amor,</p>
+
+          <p>
+            O Ano está para terminar, e dessa vez com a coisa mais incrível que me aconteceu. De maneira inesperada, como aquelas coisas incríveis que Deus manda sem pedir, Você apareceu na minha vida.
+            E hoje... Fazemos 2 meses que estamos juntos como NAMORADOS, e amo estar lembrando toda vez disso 💜
+          </p>
+          <p>
+            Hoje posso olhar para trás e dizer... CARACA EU TENHO UMA NAMORADA. E já passamos bastante coisas juntos, tivemos momentos engraçados, de tristeza, de raiva, de preocupação, de ansiedade, de amor... e a cada dia que passa fico mais e mais feliz em relembrar que Você é minha namorada, e não qualquer outra pessoa.
+            Lembrar que hoje tenho um amorzinho, alguém que posso chamar de amor, que eu posso cuidar, desabafar e até passar o tempo juntos... Me enche bastante de felicidade garota...💜💜💜
+          </p>
+          <p>
+            E hoje nessa data especial, só queria relembrar a você que te AMO MUiTÃO, e que não vou deixar de te amar ou de cuidar. Hoje cai a ficha que... o ano está acabando e faqz 2 meses que tenho a namorada mais linda desse mundo!!!
+          </p>
+
+          <p>
+            Em 2 meses de namoro, 5 meses e 18 dias que nos conhecemos... sei que passamos por diversas coisas, muitas coisas mesmo... Nós nos conhecemos, nos tornamos amigos, comprei bastante tortilete, você emtrou em um impasse, nos declaramos um pro outro... e o resto da história você conhece no que deu. 
+            Mas em todos os momentos desde que me declarei pra você, não me arrependo em nenhum momento de ter escolhido você. Você a minha pessoa favorita na terra, aquela que eu amo e quero todos os dias passar junto com você. Mesmo que as vezes eu faça um tiquinho de raiva pra você, amo o seu jeito paciente comigo e todo o carinho que você me dá.  
+          </p>
+
+          <p>
+            Eu te escolhi, ou comecei a gostar de você por seu jeito meigo, seu carinho comigo, seu olhar bonito e brilhante, sua beleza... E principalmente a ânsia que tenho até hoje de estar com você e passar o tempo ao seu lado olhando as escadas ou a ferrugem no teto...
+            E por conta de todas essas coisa eu afirmo que TE AMO AMOR, com todas as forças e com todas as letras. Porque entre todas as pessoas, todos os mares, continentes, países, estados, cidades... eu escolhi você e isso te torna a pessoa mais especial na minha vida, que eu vou querer passar todo o tempo que tenho até o final. 
+          </p>
+
+          <p>
+            Quero continuar te amando cada dia mais, e cuidando cada vez mais de você minha princesa. Seja te mimando, te dando dengo ou apenas dormindo com você no banco... Eu quero passar cada dia daqui pra frente ao seu lado, e disso não tenho nenhuma dúvida.
+            Sei que as vezes deixo a desejar em algo, ou até mesmo deixo de ser o que você esperava, mas estou me esforçando e pretendo continuar me esforçando por você a cada dia. Eu amo você garota, amo mil milhôes, e por isso não vou desistir de você, escolher outra pessoa ou até mesmo deixar de cuidar de você... até porque não me vejo com nenhuma pessoa que não seja você na minha vida💜
+          </p>
+
+          <p>
+            Que nosso amor continue crescendo e que a gente continue crescendo em Deus que é amor. 
+          </p>
+
+          <!-- Espaço adicional para novos parágrafos customizados -->
+          <p>
+            <em>Espero poder ser seu mozão por muito tempo...</em>
+          </p>
+
+          <p class="signature">
+            Com todo o amor do seu cavaleiro das sombras,<br>
+            <span>Seu Batman 🦇💙💜</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTADOR DE TEMPO -->
+      <section class="counter-section section-card">
+        <span class="section-label">TEMPO Juntos Namorando</span>
+        <h2>Tempo te amando ⏳✨</h2>
+        <p class="muted">Cada segundo ao seu lado vale mais que toda Gotham.</p>
+
+        <div class="counter" aria-label="Tempo de namoro">
+          <div class="counter-item">
+            <strong id="days">0</strong>
+            <span>dias</span>
+          </div>
+          <div class="counter-item">
+            <strong id="hours">00</strong>
+            <span>horas</span>
+          </div>
+          <div class="counter-item">
+            <strong id="minutes">00</strong>
+            <span>minutos</span>
+          </div>
+          <div class="counter-item">
+            <strong id="seconds">00</strong>
+            <span>segundos</span>
+          </div>
+        </div>
+
+        <p class="counter-caption">E cada segundo que passa meu amor por você só aumenta! 💙💜</p>
+      </section>
+
+      <!-- GALERIA EXPANDIDA PARA 10 FOTOS (SÍMBOLO ALTERNADO BATMAN / HELLO KITTY) -->
+      <section class="memories-section section-card">
+        <span class="section-label">GALERIA DE MEMÓRIAS</span>
+        <h2>Nossa Coleção de Momentos 📸✨</h2>
+        <p class="muted">Nossos momentos especiais juntos 🦇 com meu mozinho 🎀</p>
+
+        <div class="gallery">
+          <!-- Foto 1: Batman -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-batman" title="Símbolo do Batman">🦇</div>
+            <img src="img/foto-8.jpeg" alt="Foto 1 do casal">
+            <figcaption>Nosso primeiro momento inesquecível 💙</figcaption>
+          </figure>
+
+          <!-- Foto 2: Hello Kitty -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-kitty" title="Laço da Hello Kitty">🎀</div>
+            <img src="img/foto-2.jpeg" alt="Foto 2 do casal">
+            <figcaption>Sua doçura que me fascina 💜</figcaption>
+          </figure>
+
+          <!-- Foto 3: Batman -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-batman" title="Símbolo do Batman">🦇</div>
+            <img src="img/foto-3.jpeg" alt="Foto 3 do casal">
+            <figcaption>O guardião do seu sorriso ✨</figcaption>
+          </figure>
+
+          <!-- Foto 4: Hello Kitty -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-kitty" title="Laço da Hello Kitty">🎀</div>
+            <img src="img/foto-4.jpeg" alt="Foto 4 do casal">
+            <figcaption>Um dia cheio de amor e risadas 💙</figcaption>
+          </figure>
+
+          <!-- Foto 5: Batman -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-batman" title="Símbolo do Batman">🦇</div>
+            <img src="img/foto-5.jpeg" alt="Foto 5 do casal">
+            <figcaption>Sempre juntos em qualquer aventura 💜</figcaption>
+          </figure>
+
+          <!-- Foto 6: Hello Kitty -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-kitty" title="Laço da Hello Kitty">🎀</div>
+            <img src="img/foto-6.jpeg" alt="Foto 6 do casal">
+            <figcaption>Minha princesinha Hello Kitty 🎀</figcaption>
+          </figure>
+
+          <!-- Foto 7: Batman -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-batman" title="Símbolo do Batman">🦇</div>
+            <img src="img/foto-7.jpeg" alt="Foto 7 do casal">
+            <figcaption>Protegendo a nossa felicidade 💙</figcaption>
+          </figure>
+
+          <!-- Foto 8: Hello Kitty -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-kitty" title="Laço da Hello Kitty">🎀</div>
+            <img src="img/foto-1.jpeg" alt="Foto 8 do casal">
+            <figcaption>Brilho único que você possui 💜</figcaption>
+          </figure>
+
+          <!-- Foto 9: Batman -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-batman" title="Símbolo do Batman">🦇</div>
+            <img src="img/foto-9.jpeg" alt="Foto 9 do casal">
+            <figcaption>Nossa sintonia perfeita 🦇✨</figcaption>
+          </figure>
+
+          <!-- Foto 10: Hello Kitty -->
+          <figure class="photo-card">
+            <div class="photo-icon icon-kitty" title="Laço da Hello Kitty">🎀</div>
+            <img src="img/foto-10.jpeg" alt="Foto 10 do casal">
+            <figcaption>Para todo o sempre, nós dois! 🎀💙💜</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- LEMBRANÇA ESPECIAL DO CASAL -->
+      <section class="memory-section section-card">
+        <span class="section-label">NOSSO SEGREDO</span>
+        <h2>Sermos dois engraçadinhos que se completam...</h2>
+        <blockquote>
+          “<span id="memoryText">
+            Apesar de todas as situações, estamos sempre sendo leves... e isso que eu amo na gente
+          </span>”
+        </blockquote>
+        <p class="memory-caption">A Minha engraçadinha mais bonita desse mundo</p>
+      </section>
+
+      <!-- SURPRESA FINAL -->
+      <section class="final-section">
+        <div class="final-emblems">
+          <span class="batman-big">🦇</span>
+          <span class="heart-center">💙💜</span>
+          <span class="kitty-big">🎀</span>
+        </div>
+        <h2>Ainda Tenho um Recadinho...</h2>
+        <p>Aperte no botão abaixo para revelar o último segredo do seu Batman!</p>
+
+        <button id="revealMessage" class="primary-button">
+          Toque Aqui Para Ver a Surpresa Final ✨
+        </button>
+
+        <div id="finalMessage" class="final-message hidden" aria-live="polite">
+          <h3>Eu Escolheria Você em Qualquer Universo! ✨❤️</h3>
+          <p>
+            Não importa se existe outra pessoa melhor que você em aparência (Coisa que pra mim não existe), em altura, estudos ou até mesmo qualquer coisa que vinher na sua cabecinha... EU TE AMO, e escolho você todos os dias da minha vida.
+          </p>
+          <p><strong>Te amo infinitamente, minha princesa, te amo muitão! 💙💜🦇🎀</strong></p>
+        </div>
+      </section>
+
+      <footer>
+        <p>Desenvolvido com amor por Seu Batman para a Sua Hello Kitty. 🦇🎀</p>
+      </footer>
+    </div>
+  </main>
+
+  <!-- Script JavaScript -->
+  <script src="js/index.js"></script>
+</body>
+</html>
